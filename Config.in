@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GPIO_PROGS
+	bool "gpio-progs"
+	depends on BR2_PACKAGE_LIBGPIOD
+	help
+		Package with programs for lab 2
